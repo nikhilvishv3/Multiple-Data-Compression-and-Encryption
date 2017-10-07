@@ -1,0 +1,39 @@
+head	1.1;
+access;
+symbols;
+locks
+	nvishvkarma:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2016.07.16.03.59.06;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@// main function------>
+#include"header.h"
+#include"prototype.h"
+int main()
+{
+	 printf("in function----->  %s\n",__func__);
+
+	int choice;
+	while(1)
+	{
+		choice = mainmenu();
+		operation(choice);
+	}		
+	return 0;
+}
+@

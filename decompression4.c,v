@@ -1,0 +1,277 @@
+head	1.8;
+access;
+symbols;
+locks
+	nvishvkarma:1.8; strict;
+comment	@ * @;
+
+
+1.8
+date	2017.01.26.16.25.03;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.01.25.06.00.22;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.01.20.12.46.12;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.09.20.12.46.18;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.09.19.15.53.56;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.09.19.05.35.47;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.09.18.09.09.44;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.09.18.08.59.17;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@// this is decompression ofi 4 byte
+#include"header.h"
+#include"prototype.h"
+int decompression4()
+{
+
+	printf("in function----->%s\n",__func__);
+	unsigned char *buff=NULL,ch,c,d;
+	unsigned int efd,fd2,fd3,i=0,count,count1,length,j,n,r;
+	efd=open("compression",O_RDONLY);
+	printf("efd is : %d\n",efd);
+	count=lseek(efd,0,SEEK_END);
+	printf("count is : %d\n",count);
+	buff=(char*)malloc(sizeof(char)*(count));
+	lseek(efd,0,SEEK_SET);
+	count1=read(efd,buff,(count));
+	printf("master array is : %s\n and count1: %d\n",buff,count1);
+	fd2=open("encrypted_file",O_RDONLY);
+	if(fd2!=0)
+	printf("ENCRYPTED FILE IS OPENED\n");
+	fd3=open("compressed_file",O_RDWR);
+	if(fd3!=0)
+	{
+		printf("main file is opened\n");
+	}
+	length=lseek(fd2,0,SEEK_END);
+	printf("the total characters in actuall file------>%d \n",length);
+	lseek(fd2,0,SEEK_SET);
+	for(i=0;i<=(length-1);i++)
+	{
+		r =read(fd2,&ch,1);
+		if(r!=1)
+		printf("character is not read......oops!!\n");
+		c = ch;
+		d = ch;
+		c = c >> 4;
+		d = d << 4;
+		d = d >> 4;
+		printf("the locationn is ------>%d\n",c);
+		write(fd3,(buff+c),1);
+		printf("the written charracter is %c\n",*(buff+c));
+	//	sprintf(&n,"%d",d);
+		printf("the location is -------->%d\n",d);
+		write(fd3,(buff+d),1);
+		printf("the written character is %c\n",*(buff+d));
+	}
+	close(fd2);
+	close(fd3);
+	close(efd);
+	return 0;
+	
+}
+
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+	fd3=open("compressed_file",O_RDWR | O_CREAT);
+d29 1
+a29 1
+	for(i=0;i<(length-1);i++)
+d42 1
+a42 1
+		sprintf(&n,"%d",d);
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d1 52
+a52 52
+// this is decompression ofi 4 byte
+#include"header.h"
+int decompression4()
+{
+
+	printf("in function----->%s\n",__func__);
+	unsigned char *buff=NULL,ch,c,d;
+	unsigned int efd,fd2,fd3,i=0,count,count1,length,j,n,r;
+	efd=open("compression",O_RDONLY);
+	printf("efd is : %d\n",efd);
+	count=lseek(efd,0,SEEK_END);
+	printf("count is : %d\n",count);
+	buff=(char*)malloc(sizeof(char)*(count));
+	lseek(efd,0,SEEK_SET);
+	count1=read(efd,buff,(count));
+	printf("master array is : %s\n and count1: %d\n",buff,count1);
+	fd2=open("encrypted_file",O_RDONLY);
+	if(fd2!=0)
+	printf("ENCRYPTED FILE IS OPENED\n");
+	fd3=open("compressed_file",O_RDWR | O_CREAT);
+	if(fd3!=0)
+	{
+		printf("main file is opened\n");
+	}
+	length=lseek(fd2,0,SEEK_END);
+	printf("the total characters in actuall file------>%d \n",length);
+	lseek(fd2,0,SEEK_SET);
+	for(i=0;i<(length-1);i++)
+	{
+		r =read(fd2,&ch,1);
+		if(r!=1)
+		printf("character is not read......oops!!\n");
+		c = ch;
+		d = ch;
+		c = c >> 4;
+		d = d << 4;
+		d = d >> 4;
+		printf("the locationn is ------>%d\n",c);
+		write(fd3,(buff+c),1);
+		printf("the written charracter is %c\n",*(buff+c));
+		sprintf(&n,"%d",d);
+		printf("the location is -------->%d\n",d);
+		write(fd3,(buff+d),1);
+		printf("the written character is %c\n",*(buff+d));
+	}
+	close(fd2);
+	close(fd3);
+	close(efd);
+	return 0;
+	
+}
+
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d46 3
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a1 1
+// this is decompression of 4 byte
+a7 1
+	char str[10];
+a8 26
+	c = c ^ c;
+/*	printf("in func %s\n",__func__);
+	//buff = (char *)malloc(sizeof(char)*1);
+	if(!buff)
+	{
+		perror("malloc");
+		exit(EXIT_FAILURE);
+	}
+	printf("enter the file u want to decompress\n");
+	scanf("%s",&str);
+	printf("you enterd the file is----->%s\n",str);
+	fd=open(str,O_RDONLY);
+	fd2=open("compression",O_RDONLY);
+	while(1)
+	{
+		read(fd2,&buff,1);
+		buff=realloc(buff,(i+1));
+		*(buff+i+1) = '\0';
+		if(*(buff+i) == 10 )
+		break;
+		i++;
+	}
+	printf("the master arry is ------>%s\n",buff);
+	
+*/	
+
+a37 1
+	//	sprintf(&n,"%d",c);
+a38 1
+	//	printf("c --->%d\n",c);
+a44 1
+	//	sleep(1);
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d74 1
+a74 1
+		sleep(1);
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int decompression()
+@

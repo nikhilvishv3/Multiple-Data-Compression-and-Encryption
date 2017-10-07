@@ -1,0 +1,236 @@
+head	1.10;
+access;
+symbols;
+locks
+	nvishvkarma:1.10; strict;
+comment	@ * @;
+
+
+1.10
+date	2017.01.31.09.22.27;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2017.01.31.08.13.02;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2017.01.30.17.41.12;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.01.28.08.25.17;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.01.25.06.00.19;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.09.25.05.07.12;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.09.25.04.22.23;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.09.25.04.16.38;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.09.18.08.59.16;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.09.18.05.28.53;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@this is commpression program
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@// this is compression function
+#include"header.h"
+#include"prototype.h"
+
+int compression()
+{
+	//char *m[1];
+	char *str;
+	int fd,l,c;
+	char *m;
+	 printf("in function----->  %s\n",__func__);
+ 	str = (char *)malloc(sizeof(char)*10);
+	while(fd != 3)
+	{
+		printf("ENTER THE  FILE NAME :\n");
+      		scanf("%s",str);
+		printf("entered string is---> %s\n",str);
+//		exit (0);
+		fd = open(str, O_RDONLY);
+		if(fd == 3)
+		printf("file is opened\n");
+		else
+		{
+			printf("invalid filename\n");
+			exit (0);
+		}
+	}
+	m = createarray(fd);
+	l = strlen(m);
+	printf("final length of  master array  is ---------> %d\n",l);
+	printf("master arraay  is -----> %s\n",m);
+	c = codelength(l);
+	switch(c)
+	{
+		case 2:
+		{
+			compression2(m,l,str);
+			break;
+		}
+		case 3:
+		{
+			compression3(m,l,str);
+			break;
+		}
+		case 4:
+		{
+			compression4(m,str,l);
+			break;
+		}
+		case 5:
+		{
+			compression5(m,l,str);
+			break;
+		}
+		case 6:
+		{
+			compression6(m,l,str);
+			break;
+		}
+		case 7:
+		{
+			compression7(m,l,str);
+			break;
+		}
+		default :
+		printf("IT IS ALREADY COMPRESSED!!");
+	}
+	
+	return l;
+	
+}
+
+@
+
+
+1.9
+log
+@include passing arguments to the ccomprression6 function.
+@
+text
+@d62 1
+a62 1
+			compression7();
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d57 1
+a57 1
+			compression6();
+@
+
+
+1.7
+log
+@change pssing arguments in compression5.c
+@
+text
+@d52 1
+a52 1
+			compression5(m,str,l);
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d52 1
+a52 1
+			compression5();
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d3 2
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@a39 1
+			printf("you are in thee compression3 function\n");
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d40 1
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d40 1
+a40 1
+			compression3();
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d67 1
+a67 1
+	return 0;
+@

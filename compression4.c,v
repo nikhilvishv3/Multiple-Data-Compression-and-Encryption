@@ -1,0 +1,1344 @@
+head	1.68;
+access;
+symbols;
+locks
+	nvishvkarma:1.68; strict;
+comment	@ * @;
+
+
+1.68
+date	2017.02.09.00.50.37;	author root;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2017.02.08.03.27.50;	author root;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2017.01.25.06.00.16;	author root;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2016.09.20.12.33.00;	author root;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2016.09.19.05.35.45;	author root;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2016.09.18.07.42.15;	author root;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2016.09.18.07.17.01;	author root;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2016.09.17.12.57.43;	author root;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2016.09.17.07.39.09;	author root;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2016.09.16.08.23.18;	author root;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2016.09.16.06.16.45;	author root;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2016.08.07.03.28.05;	author root;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2016.08.07.03.24.00;	author root;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2016.08.06.07.52.29;	author root;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2016.08.06.07.32.39;	author root;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2016.07.24.08.06.52;	author root;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2016.07.24.07.58.17;	author root;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2016.07.24.07.54.03;	author root;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2016.07.24.07.51.02;	author root;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2016.07.24.04.30.47;	author root;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2016.07.24.04.29.17;	author root;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2016.07.24.04.25.57;	author root;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2016.07.22.18.02.10;	author root;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2016.07.22.17.39.55;	author root;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2016.07.22.17.37.15;	author root;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2016.07.22.17.23.53;	author root;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2016.07.22.17.16.41;	author root;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2016.07.22.17.13.49;	author root;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2016.07.22.17.12.48;	author root;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2016.07.22.17.07.29;	author root;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2016.07.22.17.02.30;	author root;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2016.07.22.16.58.33;	author root;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2016.07.22.16.51.21;	author root;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2016.07.22.16.47.14;	author root;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2016.07.22.16.41.33;	author root;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2016.07.22.16.38.18;	author root;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2016.07.22.16.36.31;	author root;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2016.07.22.16.33.04;	author root;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2016.07.22.16.23.46;	author root;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2016.07.22.16.22.32;	author root;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2016.07.22.16.21.23;	author root;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2016.07.22.16.19.31;	author root;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2016.07.22.16.05.24;	author root;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2016.07.22.16.02.47;	author root;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2016.07.22.15.52.01;	author root;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2016.07.22.15.49.54;	author root;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2016.07.22.15.44.25;	author root;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2016.07.22.13.25.54;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2016.07.22.13.24.41;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2016.07.22.12.54.14;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2016.07.22.12.50.23;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2016.07.22.12.49.02;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2016.07.22.12.46.21;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2016.07.22.12.43.50;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2016.07.22.12.37.44;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2016.07.22.12.31.46;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2016.07.22.12.18.50;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2016.07.22.12.18.12;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2016.07.22.12.16.03;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2016.07.22.11.58.26;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2016.07.22.11.43.04;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2016.07.22.11.31.27;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2016.07.22.11.09.50;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.07.22.11.09.09;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.07.22.10.47.08;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.07.22.10.36.20;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.07.22.09.41.28;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.22.09.16.09;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.68
+log
+@including a special variable eof for multiple lines compression.
+@
+text
+@//this is compression  of 4 byte
+#include"header.h"
+#include"prototype.h"
+int compression4(char *m,char *str,int l)
+{
+	int i=0,fd4,fd2,w;
+	int loc,d,eof;
+	unsigned int n;
+	unsigned char ch1,c;
+	char byte;
+	char *buff;
+	c = c ^ c;
+	buff = (char *)malloc(sizeof(char)*l);
+	if(!buff)
+	{
+		perror("malloc");
+		exit(EXIT_FAILURE);
+	}
+	printf("in function ------> %s\n", __func__);
+	printf("the master arraay is -----> %s\n",m);
+	printf("the final legth of masterarray is---------------------->%d\n",l);
+        preserve_masterarray(m,l);	
+
+
+	fd2 = open(str,O_RDONLY);
+	fd4 = open("encrypted_file",O_RDWR | O_CREAT);
+
+	while(1)
+	{
+		byte = byte ^ byte;
+		eof=read(fd2,&ch1,1);
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is-------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 4;
+		byte = byte | n;
+		eof=read(fd2,&ch1,1);
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is -------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 4;
+		n = n >> 4;
+		byte = byte | n;
+		printf("the byte is ---------------------------------->%c\n",byte);
+
+		w = write(fd4,&byte,1);
+		if(w!=1)
+		printf("CHARACTER IS NOT WRITTEN\n");
+		if( eof == 0)
+		break;
+	}
+	printf("fd2-----> %d\n fd4-------->%d\n",fd2,fd4);
+
+	lseek(fd4,0,SEEK_SET);
+	read(fd4,buff,l);
+	printf("the encryption code is -------->%s\n",buff);
+	close(fd2);
+	close(fd4);
+	return 0;
+}
+
+@
+
+
+1.67
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int loc,d;
+d31 1
+a31 1
+		read(fd2,&ch1,1);
+d38 1
+a38 1
+		read(fd2,&ch1,1);
+d51 1
+a51 1
+		if( ch1 == 10)
+@
+
+
+1.66
+log
+@..
+@
+text
+@a10 1
+//	byte = 0;
+a27 3
+//	d = l/2;
+//	printf("loop will run %d times\n ",d);
+
+a34 1
+	//	sprintf(&c,"%d",loc);
+a35 1
+	//	printf("the byte read is ------>%c\n",c);
+a41 2
+	//	sprintf(&c,"%d",loc);
+	///	printf("the byte read is ------>%c\n",c);
+a52 1
+	//	sleep(1);
+a53 1
+//	fd4 = open("encrypted_file",O_RDWR);
+@
+
+
+1.65
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.64
+log
+@*** empty log message ***
+@
+text
+@d68 2
+@
+
+
+1.63
+log
+@*** empty log message ***
+@
+text
+@d60 1
+a60 1
+		sleep(1);
+@
+
+
+1.62
+log
+@*** empty log message ***
+@
+text
+@d49 1
+@
+
+
+1.61
+log
+@*** empty log message ***
+@
+text
+@d7 2
+a8 1
+	char ch1,c;
+d38 2
+a39 1
+		sprintf(&c,"%d",loc);
+d41 2
+a42 2
+		c = c << 4;
+		byte = byte | c;
+d47 1
+a47 1
+		sprintf(&c,"%d",loc);
+d49 3
+a51 3
+		c = c << 4;
+		c = c >> 4;
+		byte = byte | c;
+@
+
+
+1.60
+log
+@*** empty log message ***
+@
+text
+@d24 1
+a24 1
+	fd2 = open("compression",O_RDONLY);
+d36 1
+a36 1
+		printf("the %cth location is--------->%d\n",ch1,loc);
+d38 1
+a38 1
+		printf("the byte read is ------>%c\n",c);
+d42 1
+a42 1
+		printf("ch1----->%c\n",ch1);
+d46 1
+a46 1
+		printf("the byte read is ------>%c\n",c);
+@
+
+
+1.59
+log
+@*** empty log message ***
+@
+text
+@d24 1
+a24 1
+	fd2 = open(str,O_RDONLY);
+@
+
+
+1.58
+log
+@*** empty log message ***
+@
+text
+@d38 1
+a38 1
+		printf("the byte read is ------>%c",c);
+d46 1
+@
+
+
+1.57
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 2
+	int i,fd4,fd2,w;
+	i=0;
+d38 1
+@
+
+
+1.56
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int compression4(char *m,char *str)
+@
+
+
+1.55
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int compression4(char *m,int l)
+d25 1
+a25 1
+	fd2 = open("compression",O_RDONLY);
+d28 2
+a29 2
+	d = l/2;
+	printf("loop will run %d times ",d);
+d31 1
+a31 1
+	while(i<=d)
+a55 1
+		i++;
+@
+
+
+1.54
+log
+@*** empty log message ***
+@
+text
+@d29 1
+@
+
+
+1.53
+log
+@*** empty log message ***
+@
+text
+@d56 1
+@
+
+
+1.52
+log
+@*** empty log message ***
+@
+text
+@d50 1
+a50 1
+		w = write(fd4,byte,1);
+@
+
+
+1.51
+log
+@*** empty log message ***
+@
+text
+@d10 1
+a10 1
+	byte = 0;
+d12 1
+d32 1
+a32 1
+		byte = byte^byte;
+@
+
+
+1.50
+log
+@*** empty log message ***
+@
+text
+@d37 1
+a37 1
+		c = c<<4;
+@
+
+
+1.49
+log
+@*** empty log message ***
+@
+text
+@d56 1
+a56 1
+	fd4 = open("encrypted_file",O_RDWR);
+@
+
+
+1.48
+log
+@*** empty log message ***
+@
+text
+@d25 1
+d48 1
+a48 1
+		fd4 = open("encrypted_file",O_RDWR | O_CREAT);
+@
+
+
+1.47
+log
+@*** empty log message ***
+@
+text
+@d22 1
+a22 1
+	fd4 = open("encrypted_file",O_RDWR | O_CREAT);
+d47 1
+@
+
+
+1.46
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	int i,fd4,fd2;
+d47 3
+a49 1
+		write(fd4,byte,1);
+@
+
+
+1.45
+log
+@*** empty log message ***
+@
+text
+@d43 2
+a44 2
+		c = c<<4;
+		c = c>>4;
+@
+
+
+1.44
+log
+@*** empty log message ***
+@
+text
+@d56 1
+a56 1
+	write(fd4,buff,l);
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@d10 1
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@d36 1
+a36 1
+		byte = byte|c;
+d44 1
+a44 1
+		byte = byte|c;
+@
+
+
+1.41
+log
+@*** empty log message ***
+@
+text
+@d12 5
+a16 1
+//	*byte= '\0';
+d56 1
+a56 1
+	printf("the encryption code is -------->%s",buff);
+@
+
+
+1.40
+log
+@*** empty log message ***
+@
+text
+@d44 1
+a44 1
+		exit (0);
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int loc,d,a;
+d18 1
+d20 1
+a20 1
+	printf("fd2-----> %d\n fd4-------->%d\n",a,fd4);
+d48 2
+@
+
+
+1.38
+log
+@*** empty log message ***
+@
+text
+@d22 1
+a22 1
+	while(i<=l)
+@
+
+
+1.37
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+//	lseek(fd2,0,SEEK_SET);
+d47 1
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d24 1
+a24 1
+		byte ^= byte;
+d30 1
+a30 1
+		c <<=4;
+d37 3
+a39 3
+		c <<= 4;
+		c >>= 4;
+		byte = byte | c;
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d40 1
+d51 1
+a51 1
+	
+@
+
+
+1.34
+log
+@*** empty log message ***
+@
+text
+@d28 1
+a28 1
+		printf("the %dth location is--------->%d\n",i,loc);
+d35 1
+a35 1
+		printf("the %dth location is -------->%d\n",i+1,loc);
+@
+
+
+1.33
+log
+@*** empty log message ***
+@
+text
+@d28 1
+d35 1
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@d22 1
+a22 1
+	while(i<=15)
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d44 1
+a44 1
+	write(fd4,*buff,l);
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d10 2
+a11 1
+//	byte = (char *)malloc(sizeof(char)*1);
+d17 1
+a17 1
+	fd4 = open("encrypted_file",O_WRONLY | O_CREAT);
+d43 3
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d38 2
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+	while(i<=d)
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+	while(i<1)
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+	while(i<=d)
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d9 3
+a11 3
+	char *byte;
+	byte = (char *)malloc(sizeof(char)*1);
+	*byte= '\0';
+d23 1
+a23 1
+		*byte ^= *byte;
+d29 1
+a29 1
+		*byte = *byte|c;
+d36 2
+a37 2
+		byte = *byte | c;
+		write(fd4,*byte,1);
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d9 3
+a11 1
+	char byte;
+d20 1
+a20 1
+	lseek(fd2,0,SEEK_SET);
+d23 1
+a23 1
+		byte ^= byte;
+d29 1
+a29 1
+		byte = byte|c;
+d36 2
+a37 2
+		byte = byte | c;
+		write(fd4,byte,1);
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d22 1
+a22 1
+		read(fd2,ch1,1);
+d28 1
+a28 1
+		read(fd2,ch1,1);
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	int i,fd4;
+d13 1
+a13 1
+	a = preserve_masterarray(m,l);	
+d15 2
+a16 1
+	printf("a-----> %d\n fd4-------->%d\n",a,fd4);
+d18 1
+a18 1
+	lseek(a,0,SEEK_SET);
+d22 1
+a22 1
+		read(a,ch1,1);
+d28 1
+a28 1
+		read(a,ch1,1);
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	int i,fd3,fd4;
+d7 1
+a7 1
+	int loc,d;
+d13 1
+a13 2
+	preserve_masterarray(m,l);
+	fd3 = open("compression",O_RDONLY);	
+d15 1
+a15 1
+	printf("fd3-----> %d\n fd4-------->%d\n",fd3,fd4);
+d17 1
+a17 1
+	lseek(fd3,0,SEEK_SET);
+d21 1
+a21 1
+		read(fd3,ch1,1);
+d27 1
+a27 1
+		read(fd3,ch1,1);
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d18 1
+a18 1
+	long lseek(fd3,0L,0);
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d18 1
+a18 1
+	lseek(fd3,0,SEEK_SET);
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d18 1
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d22 1
+a22 1
+	//	printf("the ch1----->%c\n",ch1);
+d28 1
+a28 1
+	//	printf("ch1----->%c\n",ch1);
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d12 1
+a12 1
+	printf("the final legth of masterarray is---------------------->%d",l);
+d35 1
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d12 1
+d22 1
+a22 1
+		printf("the ch1----->%c\n",ch1);
+d28 1
+a28 1
+		printf("ch1----->%c\n",ch1);
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int loc;
+d16 2
+a17 1
+	while(i<l)
+d21 1
+d27 1
+a33 5
+		if(ch1 == 10)
+		{
+			exit (0);
+		}
+		i++;
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d6 1
+d14 1
+a14 1
+	fd4 = open("encrypted_file",O_RDWR | O_CREAT);
+d16 1
+a16 1
+	while(1)
+d35 1
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d17 1
+a17 1
+		byte = byte^byte;
+d21 1
+a21 1
+		c = c<<4;
+d26 3
+a28 3
+		c = c<<4;
+		c = c>>4;
+		byte = byte|c;
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d32 1
+a32 1
+			exit 0;
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d30 4
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d14 1
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d10 1
+a10 1
+	printf("the master arraay is -----> %s",m);
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d10 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int compression4(char *ma,int l)
+d10 1
+a10 1
+	preserve_masterarray(ma,l);
+d17 1
+a17 1
+		loc = findloc(ch1,ma,l);
+d22 1
+a22 1
+		loc = findloc(ch1,ma,l);
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+		read(fd3,ch1,1)
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d6 1
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@a8 1
+	return 0;
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int compression4()
+d5 3
+d9 21
+a29 1
+	return 0;	
+d31 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+	printf("in function ------> %s", __func__);
+@

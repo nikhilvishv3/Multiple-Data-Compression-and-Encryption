@@ -1,0 +1,136 @@
+head	1.7;
+access;
+symbols;
+locks
+	nvishvkarma:1.7; strict;
+comment	@ * @;
+
+
+1.7
+date	2017.01.29.07.50.26;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.01.25.06.00.26;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.09.17.07.39.10;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.07.22.15.49.56;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.07.22.15.44.28;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.07.22.11.56.31;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.22.10.36.23;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@// this is preserve master array function
+#include"header.h"
+#include"prototype.h"
+int preserve_masterarray(char *m,int l)
+{
+	int fd1;
+	fd1 = open("compression", O_RDWR);
+	write(fd1, m ,l);
+	close(fd1);
+	return 0;
+}
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 7
+/*	for(i=0;i<l;i++)
+	{
+		printf("%c",*(m+i));
+	
+	}
+	printf("\n");*/
+	fd1 = open("compression", O_RDWR | O_CREAT);
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d6 6
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d8 2
+a9 1
+	return fd1;
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d8 1
+a8 1
+	return 0;
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int preserve_masterarray(char *ma,int l)
+d7 1
+a7 1
+	write(fd1, ma ,l);
+@

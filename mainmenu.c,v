@@ -1,0 +1,52 @@
+head	1.2;
+access;
+symbols;
+locks
+	nvishvkarma:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2017.01.25.06.00.25;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.16.04.14.05;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@// this is main menu
+#include"header.h"
+#include"prototype.h"
+
+int mainmenu()
+{
+	 printf("in function----->  %s\n",__func__);
+
+	int a;
+	printf("Enter your choice\n 1.COMPRESSION \n 2.DECOMPRESSION \n 3.EXIT\n");
+	scanf("%d",&a);
+	return a;
+}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+@

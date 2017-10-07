@@ -1,0 +1,1375 @@
+head	1.49;
+access;
+symbols;
+locks
+	nvishvkarma:1.49; strict;
+comment	@ * @;
+
+
+1.49
+date	2017.02.09.00.50.12;	author root;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2017.01.30.13.48.32;	author root;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2017.01.30.13.45.42;	author root;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2017.01.30.13.41.41;	author root;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2017.01.30.13.36.50;	author root;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2017.01.30.13.22.55;	author root;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2017.01.30.13.16.10;	author root;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2017.01.30.13.11.28;	author root;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2017.01.30.13.10.44;	author root;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2017.01.30.12.52.57;	author root;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2017.01.30.12.50.48;	author root;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2017.01.30.12.49.31;	author root;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2017.01.30.12.45.01;	author root;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2017.01.30.12.39.41;	author root;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2017.01.30.12.32.51;	author root;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2017.01.30.12.25.51;	author root;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2017.01.25.06.00.15;	author root;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2016.10.10.16.16.19;	author root;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2016.10.10.16.14.29;	author root;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2016.10.10.12.47.32;	author root;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2016.10.10.12.46.00;	author root;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2016.10.10.12.45.09;	author root;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2016.10.10.12.22.43;	author root;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2016.10.10.09.43.16;	author root;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2016.10.10.09.37.15;	author root;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2016.10.10.09.32.04;	author root;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2016.10.09.19.15.22;	author root;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2016.10.09.19.09.40;	author root;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2016.10.06.17.45.51;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2016.10.06.17.44.08;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2016.10.06.17.09.48;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2016.10.06.17.05.52;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2016.10.03.05.42.47;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2016.09.25.07.27.36;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2016.09.25.04.27.27;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2016.09.24.08.13.00;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2016.09.24.08.03.37;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2016.09.24.08.02.18;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2016.09.24.07.49.29;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2016.09.24.07.48.14;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2016.09.24.04.20.00;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2016.09.24.04.18.46;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2016.09.23.05.57.30;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2016.09.23.05.50.55;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.09.23.05.39.48;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.09.22.18.37.18;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.09.20.12.22.52;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.07.22.09.41.27;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.22.09.16.06;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.49
+log
+@including a special variable eof for multiple lines compresssion.
+@
+text
+@//this is compression  of 3 byte
+#include"header.h"
+#include"prototype.h"
+int compression3(char *m,int l,char *str)
+{
+	printf("in function------>%s\n",__func__);
+	int i=0,fd4,fd2,w,g;
+	unsigned int n,count,val,new;
+	int loc,d,x,eof;
+	unsigned char ch1;
+	char byte;
+	char *buff;
+	buff = (char *)malloc(sizeof(char)*l);
+	if(!buff)
+	{
+		perror("malloc");
+		exit(EXIT_FAILURE);
+	}
+
+	printf("the master arraay is -----> %s\n",m);
+	printf("the final legth of masterarray is---------------------->%d\n",l);
+
+        preserve_masterarray(m,l);	
+	fd2 = open(str,O_RDONLY);
+	count=lseek(fd2,0,SEEK_END);
+	lseek(fd2,0,SEEK_SET);
+
+	val=(count*0.375);
+	if(count%8 != 0)
+	val = val+1;
+	printf("the no. of characters in actual file is & the encrypted file will be---------------------->%d & %d\n",count,val);
+	
+	fd4 = open("encrypted_file",O_RDWR | O_CREAT);
+	d=0,w=0;
+	while(1)
+	{
+		if(i==0 || x==0)
+		{
+			byte= byte^byte;
+		}
+		if(i==0 || i==1 || i==2 || i==4 || i==5 || i==6 || i==8 || i==9 )
+		{
+			eof=read(fd2,&ch1,1);
+			printf("the ch1----->%c\n",ch1);
+			loc = findloc(ch1,m,l);
+			printf("the %cth location is--------->%d\n",ch1,loc);
+			n = loc;
+			if(eof==1)
+			{	
+				w++;
+				printf(" the %d th character is read from file\n",w);	
+			}
+		}
+		if( eof == 0)
+		{
+			if(i>0 && d<val)
+			{
+				write(fd4,&byte,1);
+				printf("the last byte is written to the file is-------------------->%c && %d\n",byte,byte);
+				d++;
+			}
+			break;
+		}
+
+
+		if(i==0)
+		{
+			n = n << 5;
+			byte = byte | n;	
+		}
+		if(i==1)
+		{
+			n = n << 5;
+			n = n >> 3;
+			byte = byte | n;	
+		}
+		if(i==2)
+		{
+			new = n;
+			n = n << 5;
+			n = n >> 6;
+			byte = byte | n;	
+		}
+		if(i==3)
+		{
+			
+			new = new << 7;
+			byte = byte | new;	
+		}
+		if(i==4)
+		{
+			n = n << 5;
+			n = n >> 1;
+			byte = byte | n;	
+		}
+		if(i==5)
+		{
+			n = n << 5;
+			n = n >> 4;
+			byte = byte | n;	
+		}
+		if(i==6)
+		{
+			new=n;
+			n = n << 5;
+			n = n >> 7;
+			byte = byte | n;	
+		}
+		if(i==7)
+		{
+			new = new << 6;
+			byte = byte | new;	
+		}
+		if(i==8)
+		{
+			n = n << 5;
+			n = n >> 2;
+			byte = byte | n;	
+		}
+		if(i==9)
+		{
+			n = n << 5;
+			n = n >> 5;
+			byte = byte | n;	
+		}
+		
+		if(i==2 || i==6 || i==9 )
+		{
+			if(d<val)
+			{
+				write(fd4,&byte,1);
+				x=0;
+				d++;
+				printf("the byte is written to the file is-------------------->%c && %d && %d\n",byte,byte,d);
+			}
+		}
+		else
+		x=1;
+		printf("value of i ----------------------------------->>>>>>>>%d\n",i);
+		i++;
+		if(i==10)
+		i=0;
+		
+
+
+	}
+	printf("fd2-----> %d\n fd4-------->%d\n",fd2,fd4);
+
+	lseek(fd4,0,SEEK_SET);
+	read(fd4,buff,l);
+	printf("the encryption code is -------->%s\n",buff);
+	close(fd4);
+	close(fd2);
+	return 0;
+}
+
+@
+
+
+1.48
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+	int loc,d,x;
+d43 1
+a43 1
+			g=read(fd2,&ch1,1);
+d48 1
+a48 1
+			if(g=1)
+d54 1
+a54 1
+		if( ch1 == 10)
+@
+
+
+1.47
+log
+@*** empty log message ***
+@
+text
+@d124 1
+a124 2
+			byte = byte | n;
+			i=0;	
+d140 2
+a141 2
+
+		if(i==9)
+a142 1
+		i++;
+@
+
+
+1.46
+log
+@*** empty log message ***
+@
+text
+@d142 2
+a143 1
+		if(i != 10)
+@
+
+
+1.45
+log
+@*** empty log message ***
+@
+text
+@d142 1
+a142 1
+		if(i != 9)
+@
+
+
+1.44
+log
+@*** empty log message ***
+@
+text
+@d140 1
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@d44 4
+d64 2
+a65 4
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@d41 1
+a41 3
+		if(i!=3 && i!=7 )
+				g=read(fd2,&ch1,1);
+		if(g=1)
+d43 6
+a48 2
+			w++;
+			printf(" the %d th character is read from file\n",w);	
+@
+
+
+1.41
+log
+@*** empty log message ***
+@
+text
+@d41 1
+a41 1
+		if(i!=3 && i!=7 &&)
+@
+
+
+1.40
+log
+@*** empty log message ***
+@
+text
+@d41 2
+a42 1
+		g=read(fd2,&ch1,1);
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int i=0,fd4,fd2,w;
+d41 2
+a42 2
+		w=read(fd2,&ch1,1);
+		if(w=1)
+@
+
+
+1.38
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+	int loc,d,x,m;
+d34 1
+a34 1
+	d=0,m=0;
+@
+
+
+1.37
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+	int loc,d,x;
+d34 1
+a34 1
+	d=0;
+d41 6
+a46 1
+		read(fd2,&ch1,1);
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d118 1
+a118 1
+		if(i==2 || i==6 || i==9 && d<val)
+d120 7
+a126 4
+			write(fd4,&byte,1);
+			x=0;
+			d++;
+			printf("the byte is written to the file is-------------------->%c && %d && %d\n",byte,byte,d);
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d47 1
+a47 1
+				printf("the byte is written to the file is-------------------->%c && %d\n",byte,byte);
+d123 1
+a123 1
+			printf("the byte is written to the file is-------------------->%c && %d\n",byte,byte);
+@
+
+
+1.34
+log
+@configure the whole code in a single loop.
+@
+text
+@d22 1
+d27 1
+d31 1
+@
+
+
+1.33
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a1 1
+//this isi compression  of 3-bit data
+d7 3
+a9 3
+	int i,fd4,fd2,w,q;
+	unsigned int n;
+	int loc,d;
+d11 9
+a19 2
+	unsigned char byte;
+	printf("in function ------> %s\n", __func__);
+d24 6
+d31 1
+d34 4
+a37 1
+		byte = byte ^ byte;
+d39 15
+a53 2
+		printf("the ascii value of readed character is \"%d\"\n",ch1);
+		if(ch1 != 10)
+a54 4
+			printf("the ch1----->%c\n",ch1);
+			loc = findloc(ch1,m,l);
+			printf("the %cth location is--------->%d\n",ch1,loc);
+			n = loc;
+d56 1
+a56 1
+			byte = byte | n;
+d58 1
+a58 3
+		read(fd2,&ch1,1);
+		printf("the ascii value of readed character is \"%d\"\n",ch1);
+		if(ch1 != 10)
+a59 4
+			printf("the ch1----->%c\n",ch1);
+			loc = findloc(ch1,m,l);
+			printf("the %cth location is--------->%d\n",ch1,loc);
+			n = loc;
+d62 1
+a62 1
+			byte = byte | n;
+d64 1
+a64 3
+		read(fd2,&ch1,1);
+		printf("the ascii value of readed character is \"%d\"\n",ch1);
+		if(ch1 != 10)
+d66 1
+a66 4
+			printf("the ch1----->%c\n",ch1);
+			loc = findloc(ch1,m,l);
+			printf("the %cth location is--------->%d\n",ch1,loc);
+			n = loc;
+d69 1
+a69 1
+			byte = byte | n;
+d71 1
+a71 9
+		write(fd4,&byte,1);
+		printf("the written byte is ----------------->%c\n& ascii value is ------>%d\n",byte,byte);
+		read(fd2,&ch1,1);	
+		printf("the ascii value of readed character is \"%d\"\n",ch1);
+		n = loc;
+		n = n << 7;
+		byte = byte ^ byte;
+		byte = byte | n;
+	        if(ch1 == 10)
+d73 3
+a75 2
+			write(fd4,&byte,1);
+			break;
+d77 1
+a77 1
+		else
+d79 1
+a79 5
+			printf("the ch1----->%c\n",ch1);
+			loc = findloc(ch1,m,l);
+			printf("the %cth location is--------->%d\n",ch1,loc);
+			n = loc;
+			n = n <<5;
+d81 1
+a81 1
+			byte = byte | n;
+d83 1
+a83 4
+		
+		read(fd2,&ch1,1);
+		printf("the ascii value of readed character is \"%d\"\n",ch1);
+		if(ch1 != 10)
+a84 4
+			printf("the ch1----->%c\n",ch1);
+			loc = findloc(ch1,m,l);
+			printf("the %cth location is--------->%d\n",ch1,loc);
+			n = loc;
+d87 1
+a87 1
+			byte = byte | n;
+d89 1
+a89 3
+		read(fd2,&ch1,1);
+		printf("the ascii value of readed character is \"%d\"\n",ch1);
+		if(ch1 != 10)
+d91 1
+a91 4
+			printf("the ch1----->%c\n",ch1);
+			loc = findloc(ch1,m,l);
+			printf("the %cth location is--------->%d\n",ch1,loc);
+			n = loc;
+d94 1
+a94 1
+			byte = byte | n;
+d96 1
+a96 9
+		write(fd4,&byte,1);
+		printf("the written byte is ----------------->%c\n& ascii value is ------>%d\n",byte,byte);
+		read(fd2,&ch1,1);
+		printf("the ascii value of readed character is \"%d\"\n",ch1);
+		n = loc;
+		n = n << 6;
+		byte = byte ^ byte;
+		byte = byte | n;
+		if(ch1 == 10)
+d98 2
+a99 2
+			write(fd4,&byte,1);
+			break;
+d101 1
+a101 1
+		else
+a102 4
+			printf("the ch1----->%c\n",ch1);
+			loc = findloc(ch1,m,l);
+			printf("the %cth location is--------->%d\n",ch1,loc);
+			n = loc;
+d105 1
+a105 1
+			byte = byte | n;
+d107 1
+a107 4
+		
+		read(fd2,&ch1,1);
+		printf("the ascii value of readed character is \"%d\"\n",ch1);
+		if(ch1 != 10)
+a108 4
+			printf("the ch1----->%c\n",ch1);
+			loc = findloc(ch1,m,l);
+			printf("the %cth location is--------->%d\n",ch1,loc);
+			n = loc;
+d112 5
+d118 3
+a120 1
+			printf("the written byte is ----------------->%c\n& ascii value is ------>%d\n",byte,byte);
+d123 5
+a127 1
+		write(fd4,&byte,1);
+d132 1
+d134 2
+a135 8
+//	read(fd4,buff,l);
+//	printf("the encryption code is -------->%s\n",buff);
+	w = lseek(fd4,0,SEEK_END);
+	q = lseek(fd2,0,SEEK_END);
+	lseek(fd4,0,SEEK_SET);
+	lseek(fd2,0,SEEK_SET);
+	printf("the no of bytes \"encrypted file\"  are----->%d\n",(w-2));
+	printf("the no of bytes in \"nikhil\" file are----->%d\n",(q-2));
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d148 2
+a149 2
+	read(fd4,buff,l);
+	printf("the encryption code is -------->%s\n",buff);
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@a10 7
+	char *buff;
+	buff = (char *)malloc(sizeof(char)*l);
+	if(!buff)
+	{
+		perror("malloc");
+		exit(EXIT_FAILURE);
+	}
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@a57 1
+			m = loc;
+a149 1
+		break;
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	unsigned int n,m;
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	unsigned int n;
+d58 1
+d151 1
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d148 2
+a149 2
+	//	else
+	//		write(fd4,&byte,1);
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d161 2
+a162 2
+	printf("the no of bytes \"encrypted file\"  are----->%d\n",w);
+	printf("the no of bytes in \"nikhil\" file are----->%d\n",q);
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d28 1
+d39 1
+d51 1
+d65 1
+d87 1
+d99 1
+d113 1
+d135 1
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@a145 2
+
+	lseek(fd4,0,SEEK_SET);
+d153 2
+a154 2
+	printf("the no of bytes written  are----->%d\n",w);
+	printf("the no of bytes in actuall file are----->%d\n",q);
+@
+
+
+1.22
+log
+@fired else condition
+@
+text
+@d60 1
+d105 1
+d138 1
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d137 2
+a138 2
+		else
+			write(fd4,&byte,1);
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+	int i,fd4,fd2,w;
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d145 1
+d149 1
+d151 3
+a153 1
+	printf("the no of bytes   are----->%d\n",w);
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d139 1
+a139 1
+			break;
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d60 2
+a61 1
+		read(fd2,&buff,1);		n = loc;
+d135 1
+a135 1
+			write(fd4,&buff,1);
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d60 1
+a60 2
+		read(fd2,&buff,1);
+		n = loc;
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d10 1
+a10 1
+	char byte;
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@a23 4
+//	w = lseek(fd4,0,SEEK_END);
+//	lseek(fd4,0,SEEK_SET);
+//	d = w/8;
+//	printf("the no of itrations  are----->%d\n",d);
+d147 3
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@a10 1
+//	byte = 0;
+a11 1
+//	c = c ^ c;
+d24 5
+a28 5
+	w = lseek(fd4,0,SEEK_END);
+	lseek(fd4,0,SEEK_SET);
+	d = w/8;
+	printf("the no of itrations  are----->%d\n",d);
+	for(i=0;i<(d+1);i++)
+d72 1
+a72 1
+			exit(0);
+d116 1
+a116 1
+			exit(0);
+d143 1
+a143 1
+			exit(0);
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@a6 1
+	i=0;
+d30 1
+a30 1
+	for(i=0;i<(d+1),i++)
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d27 5
+a31 2
+
+	while(1)
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d107 1
+a107 1
+		write(fd4,&byte,1)
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@a61 1
+			write(fd4,&byte,1);
+d63 1
+d86 10
+a95 7
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 5;
+		n = n >> 4;
+		byte = byte | n;
+a105 1
+			write(fd4,&byte,1);
+d107 1
+d142 1
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+	fd2 = ope1n(str,O_RDONLY);
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+	fd2 = open(str,O_RDONLY);
+d32 33
+a64 26
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 5;
+		byte = byte | n;
+		
+		read(fd2,&ch1,1);
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 5;
+		n = n >> 3;
+		byte = byte | n;
+		
+		read(fd2,&ch1,1);
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 5;
+		n = n >> 6;
+		byte = byte | n;
+		write(fd4,&byte,1);
+		
+d69 15
+a83 9
+		
+		read(fd2,&ch1,1);
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+		n = n <<5;
+		n = n >> 1;
+		byte = byte | n;
+a92 1
+		
+d94 12
+a105 8
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 5;
+		n = n >> 7;
+		byte = byte | n;
+		write(fd4,&byte,1);
+d110 30
+a139 19
+		
+		read(fd2,&ch1,1);
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 5;
+		n = n >> 2;
+		byte = byte | n;
+		
+		read(fd2,&ch1,1);
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 5;
+		n = n >> 5;
+		byte = byte | n;
+		write(fd4,&buff,1);
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a1 1
+//this is compression  of 4 byte
+d12 1
+a12 1
+	byte = 0;
+d51 1
+a51 1
+		iprintf("the %cth location is--------->%d\n",ch1,loc);
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+//	int i,fd4,fd2,w;
+d8 3
+a10 3
+//	unsigned int n;
+//	int loc,d;
+//	unsigned char ch1;
+d12 1
+a12 1
+//	byte = 0;
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+	int i,fd4,fd2,w;
+d8 3
+a10 3
+	unsigned int n;
+	int loc,d;
+	unsigned char ch1;
+d51 1
+a51 1
+		printf("the %cth location is--------->%d\n",ch1,loc);
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a1 1
+//this is compression  of 3 byte
+a24 2
+
+
+a34 1
+	//	sprintf(&c,"%d",loc);
+d36 10
+a45 1
+		n = n << 6;
+d47 1
+d49 1
+a49 1
+		printf("ch1----->%c\n",ch1);
+d51 1
+a51 2
+		printf("the %cth location is -------->%d\n",ch1,loc);
+	//	sprintf(&c,"%d",loc);
+d53 8
+a60 2
+		n = n << 6;
+		n = n >> 2;
+d62 1
+d64 1
+a64 1
+		printf("ch1----->%c\n",ch1);
+d66 1
+a66 2
+		printf("the %cth location is -------->%d\n",ch1,loc);
+	//	sprintf(&c,"%d",loc);
+d68 10
+a77 1
+		n = n << 6;
+d80 1
+d82 1
+a82 1
+		printf("ch1----->%c\n",ch1);
+d84 6
+a89 2
+		printf("the %cth location is -------->%d\n",ch1,loc);
+	//	sprintf(&c,"%d",loc);
+d92 19
+a110 1
+		n = n >> 6;
+d112 1
+a112 1
+		printf("the byte is ---------------------------------->%c\n",byte);
+a113 5
+		w = write(fd4,&byte,1);
+		if(w!=1)
+		printf("CHARACTER IS NOT WRITTEN\n");
+		if( ch1 == 10)
+		break;
+a114 1
+//	fd4 = open("encrypted_file",O_RDWR);
+d120 2
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a1 1
+//this is compression  of 4 byte
+d3 1
+a3 1
+int compression3()
+d5 16
+d22 61
+a82 1
+	return 0;	
+d84 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+	printf("in function ------> %s", __func__);
+@

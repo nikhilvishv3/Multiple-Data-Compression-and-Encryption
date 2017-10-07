@@ -1,0 +1,562 @@
+head	1.21;
+access;
+symbols;
+locks
+	nvishvkarma:1.21; strict;
+comment	@ * @;
+
+
+1.21
+date	2017.02.09.00.49.42;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2017.01.30.07.02.44;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2017.01.30.04.20.46;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2017.01.29.07.48.54;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2017.01.29.07.12.35;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2017.01.29.06.51.38;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2017.01.29.06.15.09;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2017.01.29.06.10.27;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2017.01.28.18.18.25;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2017.01.26.16.24.58;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2017.01.25.06.00.15;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2016.09.22.18.37.17;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2016.09.20.12.32.59;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2016.09.20.03.14.00;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2016.09.18.10.06.54;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2016.09.18.10.06.07;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.09.18.10.04.19;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.08.07.03.34.49;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.08.05.15.48.15;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.07.22.09.41.25;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.22.09.16.04;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.21
+log
+@including a special variable eof for multiple lines compressio.
+@
+text
+@//this is compression  of 4 byte
+#include"header.h"
+#include"prototype.h"
+int compression2(char *m,int l,char *str)
+{
+	printf("in function------>%s\n",__func__);
+	int i=0,fd4,fd2,w;
+	unsigned int n,count,val;
+	int loc,d,eof;
+	unsigned char ch1;
+	char byte;
+	char *buff;
+	buff = (char *)malloc(sizeof(char)*l);
+	if(!buff)
+	{
+		perror("malloc");
+		exit(EXIT_FAILURE);
+	}
+	printf("in function ------> %s\n", __func__);
+	printf("the master arraay is -----> %s\n",m);
+	printf("the final legth of masterarray is---------------------->%d\n",l);
+        preserve_masterarray(m,l);	
+	fd2 = open(str,O_RDONLY);
+	count=lseek(fd2,0,SEEK_END);
+	lseek(fd2,0,SEEK_SET);
+	val=(count/4);
+	val = val+1;
+	fd4 = open("encrypted_file",O_RDWR | O_CREAT);
+	d=0;
+	while(1)
+	{
+		if(i==0 || i>3)
+		{
+			i = 0;
+			byte= byte^byte;
+		}
+		eof=read(fd2,&ch1,1);
+	
+		if( eof == 0)
+		{
+			if(i>0 && d<val)
+			{
+				write(fd4,&byte,1);
+				d++;
+				printf("the byte is written to the file is-------------------->%c && %d\n",byte,byte);
+			}
+			break;
+		}
+		printf("the ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is--------->%d\n",ch1,loc);
+		n = loc;
+		if(i==0)
+		{
+			n = n << 6;
+			byte = byte | n;	
+		}
+		if(i==1)
+		{
+			n = n << 6;
+			n = n >> 2;
+			byte = byte | n;	
+		}
+		if(i==2)
+		{
+			n = n << 6;
+			n = n >> 4;
+			byte = byte | n;	
+		}
+		if(i==3)
+		{
+			n = n << 6;
+			n = n >> 6;
+			byte = byte | n;	
+		}
+		if(i==3 && d<val)
+		{
+			write(fd4,&byte,1);
+			d++;
+			printf("the byte is written to the file is-------------------->%c && %d\n",byte,byte);
+		}
+
+		i++;
+		
+
+
+	}
+	printf("fd2-----> %d\n fd4-------->%d\n",fd2,fd4);
+
+	lseek(fd4,0,SEEK_SET);
+	read(fd4,buff,l);
+	printf("the encryption code is -------->%s\n",buff);
+	close(fd4);
+	close(fd2);
+	return 0;
+}
+
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+	int loc,d;
+d37 3
+a39 2
+		read(fd2,&ch1,1);
+		if( ch1 == 10)
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d8 1
+a8 1
+	unsigned int n;
+d24 4
+d40 1
+a40 1
+			if(i>0 && d<l)
+d75 1
+a75 1
+		if(i==3 && d<l)
+@
+
+
+1.18
+log
+@added last character blocking statement which has 0 value
+@
+text
+@d40 1
+a40 1
+				printf("the byte is written to the file is-------------------->%c\n",byte);
+d75 1
+a75 1
+			printf("the byte is written to the file is-------------------->%c\n",byte);
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+
+d36 1
+a36 1
+			if(i>0)
+d39 1
+d71 1
+a71 1
+		if(i==3)
+d74 1
+@
+
+
+1.16
+log
+@adding the printf statement.
+@
+text
+@d37 4
+a40 2
+			write(fd4,&byte,1);
+			printf("the byte is written to the file is-------------------->%c\n",byte);
+@
+
+
+1.15
+log
+@added the printf statement of witten byte.
+@
+text
+@d38 1
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d68 4
+a71 1
+		write(fd4,&byte,1);
+@
+
+
+1.13
+log
+@changing the archietecture of the program.
+@
+text
+@d58 1
+a58 1
+			n = n << 4;
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d28 5
+a32 1
+		byte = byte ^ byte;
+d35 5
+a39 1
+		break;
+d44 29
+a72 36
+		n = n << 6;
+		byte = byte | n;
+		read(fd2,&ch1,1);
+		if( ch1 == 10)
+		break;
+		printf("ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is -------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 6;
+		n = n >> 2;
+		byte = byte | n;
+		read(fd2,&ch1,1);
+		if( ch1 == 10)
+		break;
+		printf("ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is -------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 6;
+		n = n >> 4;
+		byte = byte | n;
+		read(fd2,&ch1,1);
+		if( ch1 == 10)
+		break;
+		printf("ch1----->%c\n",ch1);
+		loc = findloc(ch1,m,l);
+		printf("the %cth location is -------->%d\n",ch1,loc);
+		n = loc;
+		n = n << 6;
+		n = n >> 6;
+		byte = byte | n;
+		printf("the byte is ---------------------------------->%c\n",byte);
+		w = write(fd4,&byte,1);
+		if(w!=1)
+		printf("CHARACTER IS NOT WRITTEN\n");
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 2
+	int i,fd4,fd2,w;
+	i=0;
+a11 1
+//	byte = 0;
+a12 1
+//	c = c ^ c;
+d30 2
+d39 2
+d49 2
+d59 2
+a68 1
+
+d72 1
+a72 2
+		if( ch1 == 10)
+		break;
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@a24 2
+
+
+a34 1
+	//	sprintf(&c,"%d",loc);
+a41 1
+	//	sprintf(&c,"%d",loc);
+a49 1
+	//	sprintf(&c,"%d",loc);
+a57 1
+	//	sprintf(&c,"%d",loc);
+a69 1
+//	fd4 = open("encrypted_file",O_RDWR);
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d82 2
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d5 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d48 1
+a48 1
+		byte = byte | c;
+d57 1
+a57 1
+		byte = byte | c;
+d66 1
+a66 1
+		byte = byte | c;
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d13 1
+a13 1
+	c = c ^ c;
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d7 1
+d9 1
+a9 1
+	char ch1,c;
+d36 4
+a39 3
+		sprintf(&c,"%d",loc);
+		c = c << 6;
+		byte = byte | c;
+d44 4
+a47 3
+		sprintf(&c,"%d",loc);
+		c = c << 6;
+		c = c >> 2;
+d53 4
+a56 3
+		sprintf(&c,"%d",loc);
+		c = c << 6;
+		c = c >> 4;
+d62 4
+a65 3
+		sprintf(&c,"%d",loc);
+		c = c << 6;
+		c = c >> 6;
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int compression2(char *m,int l)
+d25 1
+a25 1
+	fd2 = open("compression",O_RDONLY);
+d28 1
+a28 1
+	while(i<1)
+a68 1
+		i++;
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int compression2()
+d5 14
+d20 58
+a77 1
+	return 0;	
+d79 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+	printf("in function ------> %s", __func__);
+@

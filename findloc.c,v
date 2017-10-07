@@ -1,0 +1,73 @@
+head	1.3;
+access;
+symbols;
+locks
+	nvishvkarma:1.3; strict;
+comment	@ * @;
+
+
+1.3
+date	2017.01.25.06.00.24;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.07.22.11.56.31;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.22.10.36.22;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@// this is function for finding the location
+#include"header.h"
+#include"prototype.h"
+int findloc(char ch1, char *m,int l)
+{
+	int i=0;
+	while(i<l)
+	{
+		if( ch1 == *(m+i))
+		{
+			return i;
+		}
+		i++;
+	}
+		
+} 
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int findloc(char ch1, char *ma,int l)
+d8 1
+a8 1
+		if( ch1 == *(ma+i))
+@

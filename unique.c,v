@@ -1,0 +1,410 @@
+head	1.21;
+access;
+symbols;
+locks
+	nvishvkarma:1.21; strict;
+comment	@ * @;
+
+
+1.21
+date	2017.01.25.09.35.24;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2017.01.25.06.00.27;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2016.07.22.11.37.11;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2016.07.19.07.56.05;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2016.07.18.12.12.44;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2016.07.18.06.46.03;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2016.07.18.06.41.05;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2016.07.17.17.03.55;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2016.07.17.10.43.47;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2016.07.17.10.37.06;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2016.07.17.10.34.27;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2016.07.17.10.32.01;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2016.07.17.10.31.14;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2016.07.17.08.47.09;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2016.07.17.08.32.45;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2016.07.17.08.31.33;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.07.17.07.52.18;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.07.17.07.48.35;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.07.17.07.46.49;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.07.17.07.39.08;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.16.04.14.05;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@// this is unique function
+#include"header.h"
+#include"prototype.h"
+int unique(char *ma,char ch)
+{
+	int ndc;
+	int i=0;
+	printf("in function----->  %s\n",__func__);
+	ndc = strlen(ma);
+	while(i<ndc)
+	{
+		if(ch == *(ma+i))
+		return 0;
+		i++;
+	}
+	return 1;
+}
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+char *unique(char *ma,char ch)
+d16 1
+a16 1
+	return ma;
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int unique(char *ma,char ch)
+d15 1
+a15 1
+	return 1;
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 2
+	 printf("in function----->  %s\n",__func__);
+
+a8 1
+	 printf("length----->  %d\n",ndc);
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int unique(char *ma,char ch,int count)
+d5 3
+a7 3
+	//int ndc;
+	int i;
+	printf("in function----->  %s\n",__func__);
+d9 4
+a12 5
+	//ndc = strlen(ma);
+	//printf("length----->  %d\n",ndc);
+	
+	for(i=0;i<count;i++)
+	{		
+d15 2
+a16 2
+	
+	}	
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d10 1
+a10 1
+	printf("length----->  %d\n",ndc);
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int unique(char *ma,char ch)
+d5 3
+a7 3
+	int ndc;
+	int i=0;
+	 printf("in function----->  %s\n",__func__);
+d9 5
+a13 4
+	ndc = strlen(ma);
+	 printf("length----->  %d\n",ndc);
+	while(i<ndc)
+	{
+d16 2
+a17 2
+		i++;
+	}
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@a10 1
+		printf("the character read again is %c\n",ch);
+a12 1
+
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d12 1
+a12 1
+	while(i<=ndc)
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d12 1
+a12 1
+	while(i<ndc)
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d11 1
+d14 1
+a14 1
+		printf("the character read again is %c\n",ch);
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d13 1
+a13 1
+		printf("the character read again is %c",ch);
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d13 1
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+	while(i<=ndc)
+a14 2
+		else
+		return 1;
+d17 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+	while(i<ndc)
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d15 2
+a18 1
+	return 1;
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+	while(i<=ndc)
+a14 2
+		else
+		return 1;
+d17 1
+a17 1
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+	while(i<ndc)
+d19 1
+a19 1
+	return  1;
+@
+
+
+1.2
+log
+@write return inside loop
+@
+text
+@d19 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d15 2
+a18 1
+	return 1;
+@

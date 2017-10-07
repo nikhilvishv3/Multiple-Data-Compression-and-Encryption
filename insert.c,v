@@ -1,0 +1,288 @@
+head	1.16;
+access;
+symbols;
+locks
+	nvishvkarma:1.16; strict;
+comment	@ * @;
+
+
+1.16
+date	2017.01.25.06.00.25;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2016.07.22.11.19.23;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2016.07.20.16.55.51;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2016.07.19.14.44.15;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2016.07.19.08.01.44;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2016.07.19.07.59.36;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2016.07.19.07.56.04;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2016.07.19.07.42.33;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2016.07.18.12.30.18;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2016.07.17.17.03.50;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2016.07.17.10.45.14;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.07.17.10.43.46;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.07.17.08.05.52;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.07.17.08.03.03;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.07.17.08.01.23;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.15.14.22.26;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@it insert the characters inn the master array
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@// this is insert function
+#include"header.h"
+#include"prototype.h"
+char * insert(char *ma, char ch)
+{
+	int ndc;
+//	int *ptr;
+	 printf("in function----->  %s\n",__func__);
+	ma=realloc(ma,ndc+2);
+	*(ma+ndc)=ch;
+	*(ma+ndc+1)= '\0';
+	ndc=strlen(ma);
+	printf("the maasterarray is  ---------------->%s\n",ma);
+	printf("the length of masterarray is-------->>%d\n",ndc);
+	return ma;
+}
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int insert(char *ma, char ch)
+d14 1
+a14 1
+	return ndc;
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	int ndc=0;
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@a11 1
+	ndc=strlen(ma);
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	int ndc;
+a7 1
+	ndc=strlen(ma);
+d11 2
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d12 1
+a13 1
+	printf("the maasterarray is  ---->%s\n",ma);
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d12 1
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d13 1
+a13 1
+	return 0;
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@a7 1
+
+d9 1
+a9 1
+	ma=realloc(ma,ndc+1);
+d11 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+char * insert(char *ma, char ch)
+d13 1
+a13 1
+	return ma;
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int insert(char *ma, char ch)
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d13 1
+a13 1
+	return 0;
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int insert(char *ma, char ch,int fd)
+a12 1
+	close(fd);
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d13 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int insert(char *ma, char ch)
+@

@@ -1,0 +1,570 @@
+head	1.21;
+access;
+symbols;
+locks
+	nvishvkarma:1.21; strict;
+comment	@ * @;
+
+
+1.21
+date	2017.01.30.06.26.36;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2017.01.30.05.05.15;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2017.01.30.05.02.15;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2017.01.30.04.33.35;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2017.01.30.04.25.03;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2017.01.30.04.11.17;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2017.01.29.10.27.17;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2017.01.29.10.17.54;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2017.01.29.08.07.47;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2017.01.29.08.05.42;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2017.01.29.08.00.31;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2017.01.29.06.10.35;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2017.01.28.18.18.52;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2017.01.26.16.25.02;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.01.25.06.00.20;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2016.09.20.12.33.01;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.09.19.15.53.54;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.09.19.15.34.12;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.09.19.05.56.12;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.09.18.09.09.42;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.09.18.08.59.17;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@// this is decompression of 2 bytei
+#include"header.h"
+#include"prototype.h"
+int decompression2()
+{
+
+	printf("in function----->%s\n",__func__);
+	
+	unsigned char *buff=NULL,ch,d,c,e,f;
+	unsigned int efd,efd2,fd2,fd3,i=0,count,count1,length,j,n,r;	
+	
+	efd=open("compression",O_RDONLY);
+	efd2=open("nikhil",O_RDONLY);
+	fd2=open("encrypted_file",O_RDONLY);
+	fd3=open("compressed_file",O_RDWR);
+	
+
+	count=lseek(efd2,0,SEEK_END); //main file nikhil
+	count1=lseek(efd,0,SEEK_END); //master array
+	length=lseek(fd2,0,SEEK_END); //encrypted file
+	lseek(efd2,0,SEEK_SET);
+	lseek(efd,0,SEEK_SET);
+	lseek(fd2,0,SEEK_SET);
+	
+	printf("no. of characters in actual file && encrypted file is : %d && %d\n",count,length);
+	buff=(char*)malloc(sizeof(char)*(count1));
+
+	count1=read(efd,buff,(count1));
+	printf("master array is : %s\n and no. of characters-----: %d\n",buff,count1);
+	j=1;
+//	count =  count-1;
+	while(i<length)
+	{
+		r =read(fd2,&ch,1);
+		if(r=1)
+		{	
+			printf("character is read......yeah!----->%c && %d\n",ch,ch);
+			c = ch;
+			d = ch;
+			e = ch;
+			f = ch;
+			c = c >> 6;
+			d = d << 2;
+			d = d >> 6;
+			e = e << 4;
+			e = e >> 6;
+			f = f << 6;
+			f = f >> 6;
+		}
+		else
+			printf("character is not readed from file....oops!!\n");
+	
+		
+
+		if(j<count)
+		{
+			
+			printf("the locationn is ------>%d\n",c);
+			write(fd3,(buff+c),1);
+			printf("the written charracter is %c\n",*(buff+c));
+			printf("the no. of characters had witten---->%d\n",j);
+			j++;
+		}
+
+
+		if(j<count)
+		{
+			printf("the location is -------->%d\n",d);
+			write(fd3,(buff+d),1);
+			printf("the written character is %c\n",*(buff+d));
+			printf("the no. of characters had witten---->%d\n",j);
+			j++;
+		}
+
+		
+
+		if(j<count)
+		{
+			printf("the locationn is ------>%d\n",e);
+			write(fd3,(buff+e),1);
+			printf("the written charracter is %c\n",*(buff+e));
+			printf("the no. of characters had witten---->%d\n",j);
+			j++;
+		}
+
+
+
+		if(j<count)
+		{
+			printf("the location is -------->%d\n",f);
+			write(fd3,(buff+f),1);
+			printf("the written character is %c\n",*(buff+f));
+			printf("the no. of characters had witten---->%d\n",j);
+			j++;
+		}
+
+		i++;
+	}
+	close(fd2);
+	close(fd3);
+	close(efd);
+	return 0;
+	
+}
+
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d31 1
+a31 1
+	count =  count-1;
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d31 1
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+	printf("no. of characters in actual file is : %d\n",count);
+d53 1
+a53 1
+		printf("the locationn is ------>%d\n",c);
+d56 2
+d59 1
+d63 2
+a64 2
+		printf("the written charracter is %c\n",*(buff+c));
+		printf("the location is -------->%d\n",d);
+d67 1
+d69 1
+d73 1
+a73 1
+		printf("the written character is %c\n",*(buff+d));
+d75 1
+a75 1
+		printf("the locationn is ------>%d\n",e);
+d78 1
+d80 1
+d84 2
+a85 2
+		printf("the written charracter is %c\n",*(buff+e));
+		printf("the location is -------->%d\n",f);
+d89 1
+d91 1
+d95 1
+a95 1
+		printf("the written character is %c\n",*(buff+f));
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d18 6
+a23 3
+	count=lseek(efd2,0,SEEK_END);
+	count1=lseek(efd,0,SEEK_END);
+	length=lseek(fd2,0,SEEK_END);
+d27 1
+a27 1
+	lseek(efd,0,SEEK_SET);
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d33 1
+a33 1
+			printf("character is read......yeah!----->%c\n",ch);
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d62 1
+d71 1
+d80 1
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d54 1
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d8 1
+d11 1
+d14 4
+a17 1
+	printf("efd is : %d\n",efd);
+d19 5
+a23 2
+	printf("count is : %d\n",count);
+	buff=(char*)malloc(sizeof(char)*(count));
+d25 2
+a26 13
+	count1=read(efd,buff,(count));
+	printf("master array is : %s\n and count1: %d\n",buff,count1);
+	fd2=open("encrypted_file",O_RDONLY);
+	if(fd2!=0)
+	printf("ENCRYPTED FILE IS OPENED\n");
+	fd3=open("compressed_file",O_RDWR | O_CREAT);
+	if(fd3!=0)
+	{
+		printf("main file is opened\n");
+	}
+	length=lseek(fd2,0,SEEK_END);
+	printf("the total characters in actuall file------>%d \n",length);
+	lseek(fd2,0,SEEK_SET);
+@
+
+
+1.12
+log
+@open the "nikhil" file and count the charactres n save them into int count.
+@
+text
+@d30 1
+a30 1
+	j=0;
+@
+
+
+1.11
+log
+@added different cases which count the no of characters wriiten to the compressed_file
+@
+text
+@d9 1
+a9 1
+	unsigned int efd,fd2,fd3,i=0,count,count1,length,j,n,r;	
+d11 1
+d13 1
+a13 1
+	count=lseek(efd,0,SEEK_END);
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d29 1
+d51 1
+d53 5
+a57 1
+		write(fd3,(buff+c),1);
+d60 5
+a64 1
+		write(fd3,(buff+d),1);
+d68 5
+a72 1
+		write(fd3,(buff+e),1);
+d75 6
+a80 1
+		write(fd3,(buff+f),1);
+@
+
+
+1.9
+log
+@apply while(1) loop insttead of for();.
+@
+text
+@d29 1
+a29 1
+	while(1)
+a31 2
+		if(ch == 10)
+			exit(0);
+d63 1
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d29 1
+a29 1
+	for(i=0;i<=(length-1);i++)
+d32 2
+d50 1
+a50 1
+			exit(0);
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d29 1
+a29 1
+	for(i=0;i<(length-1);i++)
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d63 3
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a1 1
+i// this is decompression of 2 byte
+d8 1
+a8 28
+//	char str[10];
+	unsigned int efd,fd2,fd3,i=0,count,count1,length,j,n,r;
+//	c = c ^ c;
+/*	printf("in func %s\n",__func__);
+	//buff = (char *)malloc(sizeof(char)*1);
+	if(!buff)
+	{
+		perror("malloc");
+		exit(EXIT_FAILURE);
+	}
+	printf("enter the file u want to decompress\n");
+	scanf("%s",&str);
+	printf("you enterd the file is----->%s\n",str);
+	fd=open(str,O_RDONLY);
+	fd2=open("compression",O_RDONLY);
+	while(1)
+	{
+		read(fd2,&buff,1);
+		buff=realloc(buff,(i+1));
+		*(buff+i+1) = '\0';
+		if(*(buff+i) == 10 )
+		break;
+		i++;
+	}
+	printf("the master arry is ------>%s\n",buff);
+	
+*/	
+
+d28 1
+a28 1
+	for(i=0;i<1;i++)
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d8 1
+a8 1
+	char str[10];
+d55 1
+a55 1
+	for(i=0;i<(length-1);i++)
+d58 1
+a58 1
+		if(r!=1)
+d60 1
+a60 1
+			printf("character is not read......oops!!\n");
+d73 2
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a1 2
+
+//this is decompression  of 2 byte
+d5 85
+a89 2
+	printf("in function ------> %s\n", __func__);
+	return 0;	
+d91 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+a2 1
+//this is decompression  of 4 byte
+d4 1
+a4 1
+int compression3()
+@

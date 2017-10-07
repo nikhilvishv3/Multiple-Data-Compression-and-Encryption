@@ -1,0 +1,43 @@
+head	1.2;
+access;
+symbols;
+locks
+	nvishvkarma:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2016.07.22.13.20.32;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.16.04.13.53;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#include<stdio.h>
+#include<stdlib.h>
+#include<fcntl.h>
+#include<string.h>
+#include<unistd.h>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+@

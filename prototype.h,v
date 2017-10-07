@@ -1,0 +1,464 @@
+head	1.27;
+access;
+symbols;
+locks
+	nvishvkarma:1.27; strict;
+comment	@ * @;
+
+
+1.27
+date	2017.01.31.09.21.52;	author root;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2017.01.31.08.11.47;	author root;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2017.01.30.17.40.40;	author root;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2017.01.28.08.24.16;	author root;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2017.01.25.06.03.40;	author root;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2016.09.20.12.22.51;	author root;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2016.09.18.09.18.19;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2016.09.18.08.59.13;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2016.08.08.08.24.12;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2016.08.07.04.52.36;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2016.08.07.04.49.26;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2016.08.07.03.34.47;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2016.08.07.03.28.03;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2016.08.07.03.23.58;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2016.08.05.15.50.27;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2016.07.22.11.33.29;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2016.07.22.10.53.54;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2016.07.22.10.36.19;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2016.07.22.09.31.18;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2016.07.18.12.21.20;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2016.07.18.06.41.02;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2016.07.17.17.03.30;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.07.17.10.46.30;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.07.17.10.43.43;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.07.17.08.05.48;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.07.17.08.00.28;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.16.04.13.53;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@int compression();
+int  decompression();
+int decompression2();
+int decompression3();
+int decompression4();
+int decompression5();
+int decompression6();
+int decompression7();
+char * createarray(int);
+char * insert(char *,char);
+int operation(int);
+int mainmenu();
+int unique(char *,char);
+int codelength(int);
+int compression2(char *,int,char *);
+int compression3(char *,int,char *);
+int compression4(char *,char *,int);
+int compression5(char *,int,char *);
+int compression6(char*,int,char*);
+int compression7(char*,int,char*);
+int preserve_masterarray(char *, int);
+int findloc(char,char *,int);
+@
+
+
+1.26
+log
+@include passing arguments to the compression6 prototype function.
+@
+text
+@d20 1
+a20 1
+int compression7();
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d19 1
+a19 1
+int compression6();
+@
+
+
+1.24
+log
+@change passing arguments in the compression5.c
+@
+text
+@d18 1
+a18 1
+int compression5(char *,char *,int);
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d18 1
+a18 1
+int compression5();
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+char decompression();
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d16 1
+a16 1
+int compression3();
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+char decompression(int);
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d2 7
+a8 1
+char decompression();
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+int decompression();
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d1 2
+a2 2
+char * compression();
+int decompression(char *);
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d1 2
+a2 2
+int compression();
+int decompression();
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+int compression2(char *,int);
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+int compression4(char *,char *);
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+int compression4(char *,int);
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+int compression2();
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d3 2
+a4 2
+int createarray(int);
+int insert(char *,char);
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d16 1
+a16 1
+int findloc(char,char *,int)
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+int compression4();
+d15 2
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d8 7
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+int unique(char *,char,int);
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+int unique(char *,char);
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+char * insert(char *,char);
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+char *insert(char *,char);
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+int insert(char *,char);
+@
+
+
+1.2
+log
+@passing a new character into unique fn
+@
+text
+@d4 1
+a4 1
+int insert(char *,char, int);
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 1
+a4 1
+int insert(char *,char);
+@
